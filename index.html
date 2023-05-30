@@ -5,6 +5,7 @@
         <title>Meu timer</title>
         <meta name="viewport" content="width=device-width, initial-scale" />
         <link rel="stylesheet" type="text/css" href="./css/style.module.css" />
+        <script src="./js/script.js" defer ></script>
     </head>
     <body>
         <main class="flex-centralizar">
@@ -14,17 +15,17 @@
                 </div>
                 <div class="formatacao-padrao tempo">
                     <div>
-                        <p>00</p>
+                        <p id="hour">00</p>
                         <p>:</p>
-                        <p>00</p>
+                        <p id="minute">00</p>
                         <p>:</p>
-                        <p>00</p>
+                        <p id="segund">00</p>
                     </div>
                 </div>
                 <div class="formatacao-padrao botoes">
-                    <p>Iniciar</p>
-                    <p>Pausar</p>
-                    <p>Zerar</p>
+                    <p id="start">Iniciar</p>
+                    <p id="stop">Pausar</p>
+                    <p id="zerar">Zerar</p>
                 </div>
             </section>
         </main>
