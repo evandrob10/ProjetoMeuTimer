@@ -44,3 +44,6 @@ main{
 .tempo-parado{
     color: red;
 }
+.tempo-andamento{
+    color: #000;
+}
